@@ -1,0 +1,7 @@
+GOOGLE_CLIENT_ID=replace-with-google-client-id.apps.googleusercontent.com
+GOOGLE_CLIENT_SECRET=replace-with-local-google-client-secret
+SESSION_SECRET=replace-with-a-random-local-session-secret
+SUPER_ADMIN_EMAILS=admin@example.com
+BASE_DOMAIN=example.com
+APP_URL=http://localhost:8787
+DEV_BYPASS_AUTH=false

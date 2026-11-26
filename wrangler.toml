@@ -1,0 +1,16 @@
+name = "kas-terbuka-ormawa"
+main = "src/index.ts"
+compatibility_date = "2025-01-01"
+compatibility_flags = ["nodejs_compat"]
+
+[[d1_databases]]
+binding = "DB"
+database_name = "kas-terbuka-db"
+database_id = "00000000-0000-0000-0000-000000000000"
+
+[vars]
+BASE_DOMAIN = "example.com"
+APP_URL = "http://localhost:8787"
+GOOGLE_CLIENT_ID = "replace-with-google-client-id.apps.googleusercontent.com"
+SUPER_ADMIN_EMAILS = "admin@example.com"
+DEV_BYPASS_AUTH = "false"
